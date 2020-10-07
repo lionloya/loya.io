@@ -12,7 +12,9 @@ export default function Layout({ children, ...props }) {
         <Header />
         <div className="content">{children}</div>
       </section>
-      <footer>Built by me!</footer>
+      <footer>
+        © 2020 Loya. This page is <a href="https://github.com/lionloya/loya.io">open sourced with a WTFPL license under on GitHub</a>
+      </footer>
     </>
   )
 }

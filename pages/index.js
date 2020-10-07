@@ -4,7 +4,7 @@ import matter from 'gray-matter'
 export default function Home({posts}) {
   return (
     <>
-      <h1 className="title">Welcome to my blog!</h1>
+      <h3 className="title">Post List</h3>
       <main>
         <PostList posts={posts} />
       </main>
